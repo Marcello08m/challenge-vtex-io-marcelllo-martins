@@ -1,7 +1,7 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#product-breadcrumb",
+      "html#breadcrumb",
       "image#example",
       "condition-layout.product#availability",
       "flex-layout.row#description",
@@ -36,6 +36,14 @@
     },
     "children": ["breadcrumb"]
   },
+  "html#breadcrumb": {
+    "props": {
+      "tag": "section",
+      "testId": "a1"
+    },
+    "children": ["breadcrumb"]
+  },
+
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7

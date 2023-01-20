@@ -8,6 +8,9 @@
     },
     "children": ["flex-layout.row#product-gifts-text", "product-gift-list"]
   },
+  "html": {
+    "children": []
+  },
 
   "flex-layout.row#product-gifts-text": {
     "props": {

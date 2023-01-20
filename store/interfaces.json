@@ -3,6 +3,7 @@
     "component": "Example"
   },
   "html": {
-    "component": "html"
+    "component": "html",
+    "composition": "children"
   }
 }
