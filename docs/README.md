@@ -55,4 +55,8 @@ vtex link
 ## Dicas de desenvolvimento
 
 ### Alternativa para o Flex layout 
-- A VTEX acaba impondo algumas limitacoes e verbosidade a mais nos blocos vtex.flex-layout. Para facilitar o desenvolvimento, criamos um bloco custom chamado `html`. Ele funciona da mesma forma que o flex-layout, mas com uma sintaxe mais simples que permite a escrita de um html mais semântico. [Veja a documentação do bloco aqui](../react/components/Html/readme.md).
+A VTEX acaba impondo algumas limitacoes e verbosidade a mais nos blocos vtex.flex-layout. Para facilitar o desenvolvimento, criamos um bloco custom chamado `html`. Ele funciona da mesma forma que o flex-layout, mas com uma sintaxe mais simples que permite a escrita de um html mais semântico. [Veja a documentação do bloco aqui](../react/components/Html/readme.md).
+
+### Blocos JSON para diferente para determinados tamanhos de tela
+
+Para criar telas com diferentes blocos em diferente tamanhos de tela, podemos usar o bloco `responsive-layout`. Ele nos permite isso. [Veja a documentação do bloco aqui](https://learn.vtex.com/docs/course-layout-blocks-step09conditional-layout-lang-pt).
