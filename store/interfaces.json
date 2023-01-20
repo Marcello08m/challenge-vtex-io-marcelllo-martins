@@ -1,5 +1,8 @@
 {
-    "example-component":{
-        "component": "Example"
-    }
+  "example-component": {
+    "component": "Example"
+  },
+  "html": {
+    "component": "html"
+  }
 }
