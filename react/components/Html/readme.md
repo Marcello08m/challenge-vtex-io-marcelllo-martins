@@ -21,6 +21,16 @@ Basicamente esse componente
     </{qualquerTagHtml}>
 ```
 
+## Propriedades
+
+| Propriedade | Tipo | Descrição | Padrão |
+| --- | --- | --- | --- |
+| `tag` | `string` | Tag HTML que será renderizada | `div` |
+| `blockClass` | `string` | Classe CSS que será adicionada no componente | `` |
+| `text` | `string` | Texto que será renderizado | `''` |
+| `testId` | `string` | Id para testes | `''` |
+| `tachyonsClasses` | `string` | Classe tachyons que será adicionada no componente | `''` |
+
 
 ## HTML vs FLEX.LAYOUT
 

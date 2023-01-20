@@ -13,7 +13,7 @@
   "html#breadcrumb": {
     "props": {
       "tag": "section",
-      "testId": "a1",
+      "testId": "breadcrumbs",
       "blockClass": "pdp-breadcrumb"
     },
     "children": ["breadcrumb"]
