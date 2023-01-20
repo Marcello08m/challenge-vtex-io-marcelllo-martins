@@ -1,5 +1,4 @@
 {
-
   "name": "storefront",
   "shopName": "alliedrecommerce",
   "version": "1.0.0",
@@ -12,7 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"vtex unlink --all && vtex link\"  \"gulp storefront\"",
-    "lint": "eslint ./ --fix"
+    "lint": "eslint ./ --fix",
+    "scss": "gulp storefront"
   },
   "repository": {
     "type": "git",

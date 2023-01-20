@@ -2,7 +2,6 @@
   "store.product": {
     "children": [
       "html#breadcrumb",
-      "image#example",
       "condition-layout.product#availability",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
@@ -10,6 +9,14 @@
       "shelf.relatedProducts",
       "product-questions-and-answers"
     ]
+  },
+  "html#breadcrumb": {
+    "props": {
+      "tag": "section",
+      "testId": "a1",
+      "blockClass": "pdp-breadcrumb"
+    },
+    "children": ["breadcrumb"]
   },
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]
@@ -19,27 +26,9 @@
       "text": "##### Product Specifications"
     }
   },
-  "image#example": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": 24
-    }
-  },
-  "rich-text#teste-academy": {
-    "props": {
-      "text": "Teeeeste doooooooo amor"
-    }
-  },
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
-    },
-    "children": ["breadcrumb"]
-  },
-  "html#breadcrumb": {
-    "props": {
-      "tag": "section",
-      "testId": "a1"
     },
     "children": ["breadcrumb"]
   },

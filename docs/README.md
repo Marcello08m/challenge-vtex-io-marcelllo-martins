@@ -1,65 +1,54 @@
-# Store theme
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Our boilerplate theme to create stores in the VTEX IO platform.
+# Desafio M3 Academy - VTEX IO 
 
-## Preview
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
+## Configuração do inicial
 
-## Tutorial
-To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
+1. Instale as dependências do projeto
 
-## Dependencies
-All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
+```bash
+yarn
+```
 
-Store framework is the baseline to create any store using _VTEX IO Web Framework_.
-- [Store](https://github.com/vtex-apps/store/blob/master/README.md)
+2. Faça o login na VTEX na agencia Magma 
 
-Store GraphQL is a middleware to access all VTEX APIs.
-- [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
+```bash
+vtex login agenciamagma
+```
 
-### Store Component Apps
-- [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
-- [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
-- [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
-- [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
-- [Telemarketing](https://github.com/vtex-apps/telemarketing/blob/master/docs/README.md)
-- [Menu](https://github.com/vtex-apps/menu/blob/master/docs/README.md)
-- [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
-- [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
-- [Category Menu](https://github.com/vtex-apps/category-menu/blob/master/docs/README.md)
-- [Product Summary](https://github.com/vtex-apps/product-summary/blob/master/docs/README.md)
-- [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
-- [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
-- [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
-- [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
-- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md) 
+3. Crie um workspace de desenvolvimento. 
+Recomendamos seguir o padrão: `m3academy<nome>`. so e permitido o uso de letras minusculas e números.
 
-### Store Pixel Apps
+```bash
+vtex use m3academyanabrunasouza
+```
 
- - [Facebook Pixel](https://github.com/vtex-apps/facebook-pixel/blob/master/docs/README.md)
- - [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
+## Desenvolvimento
 
-## Contributing
+1. Inicie o projeto
 
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
+```bash
+vtex link
+```
 
-## Contributors ✨
+2. Rode o gulp para compilar os arquivos
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+```bash
+yarn scss
+```
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://www.hugoccosta.com"><img src="https://avatars2.githubusercontent.com/u/20212776?v=4" width="100px;" alt=""/><br /><sub><b>Hugo Costa</b></sub></a><br /><a href="https://github.com/vtex-apps/store-theme/commits?author=hugocostadev" title="Documentation">📖</a></td>
-  </tr>
-</table>
+3. Abrar o seu workspace no navegador
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+```bash
+vtex browse
+```
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+## Problemas frequentes
+
+### As vezes pode acontecer de bugar o link do projeto. Para resolver isso, rode o comando abaixo que vai desfazer o link e depois rode o comando de link novamente.
+
+```bash
+vtex unlink --all
+
+vtex link
+```
+
+
