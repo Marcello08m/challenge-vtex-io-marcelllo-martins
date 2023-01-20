@@ -26,13 +26,6 @@
       "text": "##### Product Specifications"
     }
   },
-  "flex-layout.row#product-breadcrumb": {
-    "props": {
-      "marginTop": 4
-    },
-    "children": ["breadcrumb"]
-  },
-
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7
