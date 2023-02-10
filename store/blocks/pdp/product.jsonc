@@ -91,7 +91,11 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": false,
+      "thumbnailsOrientation": "horizontal",
+      "thumbnailMaxHeight": 90,
+      "showPaginationDots": false,
+      "showNavigationArrows": false
     }
   },
   "flex-layout.col#right-col": {
@@ -101,20 +105,20 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      "product-identifier.product",
       "product-rating-summary",
-      "flex-layout.row#list-price-savings",
+      // "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
-      "product-separator",
-      "product-identifier.product",
+      // "product-separator",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+      "shipping-simulator"
+      // "share#default"
     ]
   },
 
