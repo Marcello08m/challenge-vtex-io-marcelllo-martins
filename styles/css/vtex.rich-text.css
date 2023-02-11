@@ -7,3 +7,10 @@
 */
 /* Media Query M3 */
 /* Grid breakpoints */
+.container {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #575757;
+}

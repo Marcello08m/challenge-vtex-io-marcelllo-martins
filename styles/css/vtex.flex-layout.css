@@ -7,6 +7,6 @@
 */
 /* Media Query M3 */
 /* Grid breakpoints */
-.flexRow {
+.flexRow--containerFlexRow {
   margin: 32px 72px 16px;
 }

@@ -7,10 +7,42 @@
       "tab-layout#description",
       // "flex-layout.row#specifications-title",
       // "product-specification-group#table",
-      "shelf.relatedProducts",
+      // "shelf.relatedProducts",
+      "rich-text#carrouselText",
+      "list-context.product-list#carousel",
       "product-questions-and-answers"
     ]
   },
+
+  "rich-text#carrouselText": {
+    "props": {
+      "text": "Você também pode gostar:",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "slider-layout#carouselSLider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4
+      }
+    }
+  },
+
+  "list-context.product-list#carousel": {
+    "children": ["slider-layout#carouselSLider"],
+    "blocks": ["product-summary.shelf#productShelf"]
+  },
+
+  "product-summary.shelf#productShelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price"
+    ]
+  },
+
   "tab-layout#description": {
     "children": ["tab-list#description", "tab-content#description"]
   },
@@ -127,6 +159,7 @@
   },
   "flex-layout.row#description": {
     "props": {
+      "blockClass": "containerFlexRow",
       "marginBottom": 7
     },
     "children": ["product-images#description", "flex-layout.col#description"]
