@@ -1,31 +1,21 @@
-.sliderLayoutContainer {
-  justify-content: center;
+/*
+0 - 600PX: Phone
+600 - 900px: Table portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our nortal styles apply
+1800px + : Big desktop
+*/
+/* Media Query M3 */
+/* Grid breakpoints */
+.paginationDot {
+  background: #000000;
 }
 
-.sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
-  min-height: 450px;
-}
-
-.sliderTrackContainer {
-  max-width: 100%;
+.paginationDot--isActive {
+  border: 0.5px solid #000000;
+  background: white;
 }
 
 .paginationDotsContainer {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
-}
-
-.layoutContainer--shelf {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  max-width: 96rem;
-  min-height: 550px;
-}
-
-.slide--shelf {
-  margin-bottom: 25px;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  min-height: 550px;
+  margin-top: 36px;
 }

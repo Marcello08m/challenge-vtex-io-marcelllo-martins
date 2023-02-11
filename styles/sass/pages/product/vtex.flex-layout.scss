@@ -1,0 +1,12 @@
+.flexRow--containerFlexRow {
+  margin: 32px 72px 16px;
+}
+
+.flexColChild--skuProduct {
+  text-align: end;
+}
+
+.flexRowContent--buttonCart :global(.vtex-button) {
+  background: black;
+  border: 0;
+}

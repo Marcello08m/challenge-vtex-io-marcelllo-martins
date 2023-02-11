@@ -7,10 +7,6 @@
 */
 /* Media Query M3 */
 /* Grid breakpoints */
-.html {
-  background-color: blue;
-}
-
-.html--pdp-breadcrumb {
-  background-color: white;
+.discountInsideContainer {
+  display: none;
 }
